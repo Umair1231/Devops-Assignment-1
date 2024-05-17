@@ -4,6 +4,7 @@ import Home from './Home'
 import Navbar from './Navbar'
 import Education from './Education'
 import Projects from './Projects'
+import Certification from './Certification'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element= { <Home /> } />
         <Route path='projects' element= { <Projects /> } />
         <Route path='education' element= { <Education /> } />
+        <Route path='certification' element= { <Certification /> } />
       </Routes>
     </>
   )
