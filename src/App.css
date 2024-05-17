@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Navbar container */
+.navbar-container {
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items along the cross axis */
+}
+
+
+.navbar-container button:hover {
+  background-color: lightgray; /* Darker blue on hover */
+}
+
