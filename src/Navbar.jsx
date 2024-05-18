@@ -8,6 +8,7 @@ export default function Navbar() {
       <button><NavLink to='/'>Home</NavLink></button>
       <button><NavLink to='/projects'>Projects</NavLink></button>
       <button><NavLink to='/education'>Education</NavLink></button>
+      <button><NavLink to='/certification'>Certification</NavLink></button>
     </div>
   )
 }
